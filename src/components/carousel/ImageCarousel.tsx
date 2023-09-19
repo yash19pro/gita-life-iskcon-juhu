@@ -39,8 +39,8 @@ const ImageCarousel = () => {
                             <Image
                                 src={image.src}
                                 alt={image.alt}
-                                width={50}
-                                height={50}
+                                width={500}
+                                height={500}
                             />
                         </Paper>
                     </div>
