@@ -164,6 +164,13 @@ export default function Home() {
                         priority
                     />
                 </div>
+                <Typography
+                    style={{ marginTop: "-40px", marginBottom: "40px" }}
+                    variant="h3"
+                    component="h3"
+                >
+                    Gita Life (M Series)
+                </Typography>
 
                 <hr />
                 <Typography variant="h1" component="h2">

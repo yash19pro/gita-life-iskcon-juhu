@@ -34,9 +34,9 @@ const ImageCarousel = () => {
                 transitionTime={500} // Animation duration
             >
                 {images.map((image) => (
-                    <div key={image.id} style={{ minWidth: "500px" }}>
+                    <div key={image.id}>
                         <Paper elevation={3} className="carousel-image">
-                            <Image
+                            <img
                                 src={image.src}
                                 alt={image.alt}
                                 width={500}
