@@ -199,7 +199,7 @@ a {
 }
 
 /* Customize carousel styles as needed */
-.carousel .slide img {
+.carousel .slide Image {
     width: 100%;
     height: auto;
     object-fit: cover;

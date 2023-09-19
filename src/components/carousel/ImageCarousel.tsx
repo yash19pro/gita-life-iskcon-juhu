@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Paper } from "@mui/material";
+import Image from "next/image";
 
 const images = [
     {
@@ -35,7 +36,7 @@ const ImageCarousel = () => {
                 {images.map((image) => (
                     <div key={image.id} style={{ minWidth: "500px" }}>
                         <Paper elevation={3} className="carousel-image">
-                            <img
+                            <Image
                                 src={image.src}
                                 alt={image.alt}
                                 width={50}

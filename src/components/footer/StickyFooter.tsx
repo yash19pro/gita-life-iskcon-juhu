@@ -7,7 +7,7 @@ const StickyFooter = () => {
             <div className="footer-content">
                 <div className="social-media">
                     <a
-                        href="#"
+                        href="https://www.youtube.com/channel/UC_ns-V-ywky8XglGIG9g5qQ"
                         className={styles.card}
                         style={{ padding: "10px", margin: "7.5px" }}
                         target="_blank"
@@ -16,7 +16,7 @@ const StickyFooter = () => {
                         YouTube
                     </a>
                     <a
-                        href="#"
+                        href="https://www.instagram.com/iskcon.gitalife/"
                         className={styles.card}
                         style={{ padding: "10px", margin: "7.5px" }}
                         target="_blank"
@@ -25,13 +25,13 @@ const StickyFooter = () => {
                         Instagram
                     </a>
                     <a
-                        href="#"
+                        href="https://medium.com/@gitalife.iskconjuhu"
                         className={styles.card}
                         style={{ padding: "10px", margin: "7.5px" }}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Blogger
+                        Medium
                     </a>
                 </div>
                 {/* <div className="footer-links">
