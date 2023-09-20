@@ -169,7 +169,14 @@ export default function Home() {
                     variant="h3"
                     component="h3"
                 >
-                    Gita Life (M Series)
+                    Gita Life
+                </Typography>
+                <Typography
+                    style={{ marginTop: "-40px", marginBottom: "40px" }}
+                    variant="body1"
+                    component="h5"
+                >
+                    M Series
                 </Typography>
             </main>
             <StickyFooter />
