@@ -126,8 +126,8 @@ export default function Home() {
                             Deities who were then housed in small shack{" "}
                             <b>
                                 <i>
-                                    "My dear Sir, please remain here, and I
-                                    shall build a beautiful temple for You. "
+                                    “My dear Sir, please remain here, and I
+                                    shall build a beautiful temple for You. ”
                                 </i>
                             </b>
                             Srila Prabhupada requested his disciples to
