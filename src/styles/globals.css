@@ -89,13 +89,13 @@ body {
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
+    /* color: rgb(var(--foreground-rgb));
     background: linear-gradient(
             to bottom,
             transparent,
             rgb(var(--background-end-rgb))
         )
-        rgb(var(--background-start-rgb));
+        rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -103,11 +103,11 @@ a {
     text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     html {
         color-scheme: dark;
     }
-}
+} */
 
 /* StickyFooter.css */
 
@@ -170,24 +170,15 @@ a {
         flex-direction: column;
         text-align: center;
         align-items: center;
+        min-width: 400px;
     }
 
     .iskcon-logo {
         flex-direction: column-reverse;
     }
 
-    .social-media {
-        margin: 20px;
-    }
-
-    .footer-info span {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .footer-links {
-        color: white;
-        margin-bottom: 20px;
+    .info-title {
+        align: center;
     }
 }
 

@@ -57,7 +57,7 @@ export default function Home() {
                         }}
                     >
                         <Typography
-                            style={{ textAlign: "left" }}
+                            style={{ textAlign: "center" }}
                             variant="h2"
                             component="h2"
                         >
@@ -106,7 +106,7 @@ export default function Home() {
                         }}
                     >
                         <Typography
-                            style={{ textAlign: "left" }}
+                            style={{ textAlign: "center" }}
                             variant="h2"
                             component="h2"
                         >
@@ -158,8 +158,8 @@ export default function Home() {
                         height={350}
                         style={{
                             borderRadius: "50%",
-                            border: "5px solid crimson",
-                            filter: "drop-shadow(0 0 0.75rem crimson)",
+                            border: "1px solid black",
+                            filter: "drop-shadow(0 0 0.75rem black)",
                         }}
                         priority
                     />
@@ -171,12 +171,6 @@ export default function Home() {
                 >
                     Gita Life (M Series)
                 </Typography>
-
-                <hr />
-                <Typography variant="h1" component="h2">
-                    Events
-                </Typography>
-                <ImageCarousel />
             </main>
             <StickyFooter />
         </>
