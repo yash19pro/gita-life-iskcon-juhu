@@ -117,18 +117,24 @@ export default function Home() {
                             variant="body1"
                             component="p"
                         >
-                            When His Divine Grace A.C. Bhaktivedanta Swami Srila
-                            Prabhupada entered the port of New York City on
-                            September 17, 1965 few Americans took notice — but
-                            he was not merely another immigrant. He was on a
-                            mission to introduce the ancient teachings of Vedic
-                            India into mainstream America. Before Srila
-                            Prabhupada passed away on November 14, 1977 at the
-                            age of 81, his mission proved successful. He had
-                            founded the International Society for Krishna
-                            Consciousness (ISKCON) and saw it grow into a
-                            worldwide confederation of more than 100 temples,
-                            ashrams and cultural centers.
+                            In early 70’s when Juhu was considered a remote and
+                            obscure part of the city, to envision a temple
+                            rising here was beyond anyone’s imagination.
+                            However, fighting against many odds Srila Prabhupada
+                            acquired the Juhu property (which is presently Hare
+                            Krishna Land) and promised Sri Sri Radha Rasabihari
+                            Deities who were then housed in small shack{" "}
+                            <b>
+                                <i>
+                                    "My dear Sir, please remain here, and I
+                                    shall build a beautiful temple for You. "
+                                </i>
+                            </b>
+                            Srila Prabhupada requested his disciples to
+                            construct a silver and teakwood Simhasana for Sri
+                            Sri Radha Rasabihari on a marble altar and Their
+                            temple should have marble domes more than a hundred
+                            feet high.
                         </Typography>
                     </div>
                     <Image

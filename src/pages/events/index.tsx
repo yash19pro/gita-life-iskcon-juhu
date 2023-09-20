@@ -14,6 +14,7 @@ export default function Events() {
                     alignItems: "center",
                     minHeight: "100vh",
                     paddingBottom: "3rem",
+                    paddingTop: "3rem",
                 }}
             >
                 <Typography variant="h1" component="h2">

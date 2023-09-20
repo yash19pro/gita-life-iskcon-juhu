@@ -24,7 +24,7 @@ const images = [
 
 const ImageCarousel = () => {
     return (
-        <div className="card carousel-container">
+        <Paper elevation={24} className="card carousel-container">
             <Carousel
                 showArrows={true}
                 showThumbs={false}
@@ -46,7 +46,7 @@ const ImageCarousel = () => {
                     </div>
                 ))}
             </Carousel>
-        </div>
+        </Paper>
     );
 };
 
