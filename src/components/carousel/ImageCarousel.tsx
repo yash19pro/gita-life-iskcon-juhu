@@ -36,7 +36,7 @@ const ImageCarousel = () => {
                 {images.map((image) => (
                     <div key={image.id}>
                         <Paper elevation={3} className="carousel-image">
-                            <img
+                            <Image
                                 src={image.src}
                                 alt={image.alt}
                                 width={500}

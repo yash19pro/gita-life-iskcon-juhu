@@ -127,10 +127,10 @@ export default function Home() {
                             <b>
                                 <i>
                                     “My dear Sir, please remain here, and I
-                                    shall build a beautiful temple for You. ”
+                                    shall build a beautiful temple for You”
                                 </i>
                             </b>
-                            Srila Prabhupada requested his disciples to
+                            . Srila Prabhupada requested his disciples to
                             construct a silver and teakwood Simhasana for Sri
                             Sri Radha Rasabihari on a marble altar and Their
                             temple should have marble domes more than a hundred
