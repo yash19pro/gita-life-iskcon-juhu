@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import StickyFooter from "@/components/footer/StickyFooter";
-import ImageCarousel from "@/components/carousel/ImageCarousel";
-import { Chip, Divider, Typography } from "@mui/material";
+import { Divider, Typography } from "@mui/material";
+import Events from "@/components/events/Events";
+import Navbar from "@/components/navbar/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,15 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className={`${styles.main} ${inter.className}`}>
+            {/* Navbar which contains the ISKCON logo, ISKCON full form and Srila Prabhupada */}
+            <Navbar />
+            <main
+                style={{ paddingTop: "1rem" }}
+                className={`${styles.main} ${inter.className}`}
+            >
+                {/* Events to be displayed in carousel */}
+                <Events />
+
                 {/* About Srila Prabhupada */}
                 <div
                     style={{
