@@ -68,7 +68,7 @@ export default function Home() {
                     style={{
                         marginTop: "-40px",
                         marginBottom: "40px",
-                        textAlign: "center",
+                        textAlign: "justify",
                     }}
                     variant="body1"
                     component="h5"
