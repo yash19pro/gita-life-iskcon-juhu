@@ -71,7 +71,7 @@ export default function Home() {
                         textAlign: "justify",
                     }}
                     variant="body1"
-                    component="h5"
+                    component="p"
                 >
                     Gita Life is a spiritual wing which spread the knowledge of
                     Bhagavad Gita to today{"'"}s youth. This wing is under
