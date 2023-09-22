@@ -51,8 +51,8 @@ export default function Home() {
                 </div>
                 <Typography
                     style={{ marginTop: "-40px", marginBottom: "40px" }}
-                    variant="h3"
-                    component="h3"
+                    variant="h2"
+                    component="h2"
                 >
                     Gita Life
                 </Typography>
@@ -77,6 +77,7 @@ export default function Home() {
                     Bhagavad Gita to today{"'"}s youth. This wing is under
                     ISKCON Juhu IYF (ISKCON Youth Forum)
                 </Typography>
+
                 {/* About Srila Prabhupada */}
                 <div
                     style={{
