@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import StickyFooter from "@/components/footer/StickyFooter";
-import { Divider, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import Events from "@/components/events/Events";
 import Navbar from "@/components/navbar/Navbar";
 
@@ -24,6 +24,7 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
             {/* Navbar which contains the ISKCON logo, ISKCON full form and Srila Prabhupada */}
             <Navbar />
             <main
@@ -32,7 +33,50 @@ export default function Home() {
             >
                 {/* Events to be displayed in carousel */}
                 <Events />
+                {/* Gita Life Logo */}
+                <div className={styles.center}>
+                    <Image
+                        className={styles.logo}
+                        src="/gita-life-logo.jpeg"
+                        alt="Next.js Logo"
+                        width={350}
+                        height={350}
+                        style={{
+                            borderRadius: "50%",
+                            border: "1px solid black",
+                            filter: "drop-shadow(0 0 0.75rem black)",
+                        }}
+                        priority
+                    />
+                </div>
+                <Typography
+                    style={{ marginTop: "-40px", marginBottom: "40px" }}
+                    variant="h3"
+                    component="h3"
+                >
+                    Gita Life
+                </Typography>
+                <Typography
+                    style={{ marginTop: "-40px", marginBottom: "40px" }}
+                    variant="body1"
+                    component="h5"
+                >
+                    M Series
+                </Typography>
 
+                <Typography
+                    style={{
+                        marginTop: "-40px",
+                        marginBottom: "40px",
+                        textAlign: "center",
+                    }}
+                    variant="body1"
+                    component="h5"
+                >
+                    Gita Life is a spiritual wing which spread the knowledge of
+                    Bhagavad Gita to today's youth. This wing is under ISKCON
+                    Juhu IFY (ISKCON Youth Forum)
+                </Typography>
                 {/* About Srila Prabhupada */}
                 <div
                     style={{
@@ -92,9 +136,6 @@ export default function Home() {
                         </Typography>
                     </div>
                 </div>
-
-                <Divider />
-
                 {/* About Iskcon Juhu */}
                 <div
                     style={{
@@ -160,39 +201,6 @@ export default function Home() {
                         priority
                     />
                 </div>
-
-                <Divider variant="middle" style={{ color: "black" }} />
-
-                {/* Gita Life Logo */}
-                <div className={styles.center}>
-                    <Image
-                        className={styles.logo}
-                        src="/gita-life-logo.jpeg"
-                        alt="Next.js Logo"
-                        width={350}
-                        height={350}
-                        style={{
-                            borderRadius: "50%",
-                            border: "1px solid black",
-                            filter: "drop-shadow(0 0 0.75rem black)",
-                        }}
-                        priority
-                    />
-                </div>
-                <Typography
-                    style={{ marginTop: "-40px", marginBottom: "40px" }}
-                    variant="h3"
-                    component="h3"
-                >
-                    Gita Life
-                </Typography>
-                <Typography
-                    style={{ marginTop: "-40px", marginBottom: "40px" }}
-                    variant="body1"
-                    component="h5"
-                >
-                    M Series
-                </Typography>
             </main>
             <StickyFooter />
         </>

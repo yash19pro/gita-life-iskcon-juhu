@@ -8,8 +8,6 @@ export default function Events() {
                 flexDirection: "column",
                 justifyContent: "space-between",
                 alignItems: "center",
-                minHeight: "100vh",
-                paddingBottom: "3rem",
                 paddingTop: "3rem",
             }}
         >
