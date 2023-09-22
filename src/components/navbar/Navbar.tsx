@@ -39,7 +39,7 @@ export default function Navbar() {
                 }}
             >
                 <h2>ISKCON Juhu, Mumbai</h2>
-                <h2>International Society for Krishna Consciousness</h2>
+                <h3>International Society for Krishna Consciousness</h3>
             </div>
 
             {/* Srila Prabhupada photo */}
