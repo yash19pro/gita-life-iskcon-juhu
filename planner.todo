@@ -1,0 +1,17 @@
+# Requirements
+☐ Navigation bar [will be coming later {events, about, ...}]
+☐ API integration with Google Sheets
+☐ Animations
+☐ Moving Background
+☐ About Srila Prabhupada
+☐ GitaLife
+    ☐ GitaLife Logo
+    ☐ GitaLife description
+☐ Carousal of events
+☐ Footer [contains all the social media links and contact details]
+
+# Quick fixes required
+ ☐ header with Iskcon pic on left, Iskcon name and full form in the center, and Srila Prabhupada's pic to the right
+ ☐ events page on the home page
+ ☐ bringing `Gita Life` logo and description up, after events page and before prabhupada's image and desc
+ ☐ adding some description of Gita Life under Gita Life Logo ('Gita Life is a spiritual wing which spread the knowledge of Bhagavad Gita to today's youth. This wing is under ISKCON Juhu IYF (ISKCON Youth Forum)')

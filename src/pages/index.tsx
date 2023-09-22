@@ -75,7 +75,7 @@ export default function Home() {
                 >
                     Gita Life is a spiritual wing which spread the knowledge of
                     Bhagavad Gita to today{"'"}s youth. This wing is under
-                    ISKCON Juhu IFY (ISKCON Youth Forum)
+                    ISKCON Juhu IYF (ISKCON Youth Forum)
                 </Typography>
                 {/* About Srila Prabhupada */}
                 <div
