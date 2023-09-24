@@ -13,11 +13,11 @@ export default function Navbar() {
                 background: "linear-gradient(to bottom, #888888, #ffffff)",
             }}
         >
-            {/* Iskcon logo */}
+            {/* Srila Prabhupada photo */}
             <Image
                 className={`${styles.logo} header-logo`}
-                src="/iskcon-juhu-logo.jpg"
-                alt="ISKCON Juhu, Mumbai"
+                src="/prabhupada.jpg"
+                alt="Srila Prabhupada"
                 width={100}
                 height={100}
                 style={{
@@ -45,11 +45,11 @@ export default function Navbar() {
                 </h4>
             </div>
 
-            {/* Srila Prabhupada photo */}
+            {/* Iskcon logo */}
             <Image
                 className={`${styles.logo} header-logo`}
-                src="/prabhupada.jpg"
-                alt="Srila Prabhupada"
+                src="/iskcon-juhu-logo.jpg"
+                alt="ISKCON Juhu, Mumbai"
                 width={100}
                 height={100}
                 style={{
