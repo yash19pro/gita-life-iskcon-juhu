@@ -27,12 +27,14 @@ export default function Home() {
 
             {/* Navbar which contains the ISKCON logo, ISKCON full form and Srila Prabhupada */}
             <Navbar />
+
             <main
                 style={{ paddingTop: "1rem" }}
                 className={`${styles.main} ${inter.className}`}
             >
                 {/* Events to be displayed in carousel */}
                 <Events />
+
                 {/* Gita Life Logo */}
                 <div className={styles.center}>
                     <Image

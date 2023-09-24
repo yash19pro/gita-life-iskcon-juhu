@@ -10,7 +10,7 @@ export default function Navbar() {
                 justifyContent: "space-between",
                 padding: "20px",
                 fontFamily: "'Spectral', serif",
-                background: "linear-gradient(to bottom, #888888, #ffffff);",
+                background: "linear-gradient(to bottom, #888888, #ffffff)",
             }}
         >
             {/* Iskcon logo */}
@@ -38,8 +38,11 @@ export default function Navbar() {
                     filter: "drop-shadow(0 0 0.75rem black)",
                 }}
             >
-                <h2>ISKCON Juhu, Mumbai</h2>
                 <h3>International Society for Krishna Consciousness</h3>
+                <h4>
+                    Founder Acharya: His Divine Grace A.C. Bhaktivedanta Swami
+                    Prabhupada
+                </h4>
             </div>
 
             {/* Srila Prabhupada photo */}
