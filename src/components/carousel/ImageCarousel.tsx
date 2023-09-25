@@ -7,18 +7,8 @@ import Image from "next/image";
 const images = [
     {
         id: 1,
-        src: "/carousel-images/1.jpeg",
-        alt: "Image 1",
-    },
-    {
-        id: 2,
-        src: "/carousel-images/2.jpeg",
-        alt: "Image 2",
-    },
-    {
-        id: 3,
-        src: "/carousel-images/3.jpeg",
-        alt: "Image 3",
+        src: "/carousel-images/ekadashi.jpeg",
+        alt: "Ekadashi",
     },
 ];
 
