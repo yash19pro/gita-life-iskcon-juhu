@@ -7,8 +7,38 @@ import Image from "next/image";
 const images = [
     {
         id: 1,
-        src: "/carousel-images/ekadashi.jpeg",
-        alt: "Ekadashi",
+        src: "/carousel-images/talasari-1.jpeg",
+        alt: "Talasari Camp",
+    },
+    {
+        id: 2,
+        src: "/carousel-images/talasari-2.jpeg",
+        alt: "Talasari Camp",
+    },
+    {
+        id: 3,
+        src: "/carousel-images/talasari-3.jpeg",
+        alt: "Talasari Camp",
+    },
+    {
+        id: 4,
+        src: "/carousel-images/talasari-4.jpeg",
+        alt: "Talasari Camp",
+    },
+    {
+        id: 5,
+        src: "/carousel-images/talasari-5.jpeg",
+        alt: "Talasari Camp",
+    },
+    {
+        id: 6,
+        src: "/carousel-images/talasari-6.jpeg",
+        alt: "Talasari Camp",
+    },
+    {
+        id: 7,
+        src: "/carousel-images/talasari-7.jpeg",
+        alt: "Talasari Camp",
     },
 ];
 
