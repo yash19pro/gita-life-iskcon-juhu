@@ -40,6 +40,41 @@ const images = [
         src: "/carousel-images/talasari-6.jpeg",
         alt: "Talasari Camp",
     },
+    {
+        id: 8,
+        src: "/carousel-images/radhaashtami-1.jpeg",
+        alt: "Radha Ashtami",
+    },
+    {
+        id: 9,
+        src: "/carousel-images/radhaashtami-2.jpeg",
+        alt: "Radha Ashtami",
+    },
+    {
+        id: 10,
+        src: "/carousel-images/radhaashtami-3.jpeg",
+        alt: "Radha Ashtami",
+    },
+    {
+        id: 11,
+        src: "/carousel-images/radhaashtami-4.jpeg",
+        alt: "Radha Ashtami",
+    },
+    {
+        id: 12,
+        src: "/carousel-images/radhaashtami-5.jpeg",
+        alt: "Radha Ashtami",
+    },
+    {
+        id: 13,
+        src: "/carousel-images/radhaashtami-6.jpeg",
+        alt: "Radha Ashtami",
+    },
+    {
+        id: 14,
+        src: "/carousel-images/radhaashtami-7.jpeg",
+        alt: "Radha Ashtami",
+    },
 ];
 
 const ImageCarousel = () => {
