@@ -184,6 +184,10 @@ a {
     .header-logo {
         display: none;
     }
+
+    .goals {
+        flex-direction: column;
+    }
 }
 
 /* ImageCarousel.css */

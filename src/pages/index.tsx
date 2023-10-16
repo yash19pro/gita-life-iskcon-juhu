@@ -6,6 +6,7 @@ import StickyFooter from "@/components/footer/StickyFooter";
 import { Typography } from "@mui/material";
 import Events from "@/components/events/Events";
 import Navbar from "@/components/navbar/Navbar";
+import Goals from "@/components/goals/Goals";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -60,8 +61,8 @@ export default function Home() {
                 </Typography>
                 <Typography
                     style={{ marginTop: "-40px", marginBottom: "40px" }}
-                    variant="body1"
-                    component="h5"
+                    variant="subtitle2"
+                    component="h6"
                 >
                     M Series
                 </Typography>
@@ -70,15 +71,18 @@ export default function Home() {
                     style={{
                         marginTop: "-40px",
                         marginBottom: "40px",
-                        textAlign: "justify",
+                        textAlign: "center",
                     }}
-                    variant="body1"
-                    component="p"
+                    variant="h6"
+                    component="h6"
                 >
-                    Gita Life is a spiritual wing which spread the knowledge of
-                    Bhagavad Gita to today{"'"}s youth. This wing is under
-                    ISKCON Juhu IYF (ISKCON Youth Forum)
+                    Gita Life of ISKCON Juhu represents our youth wing.
+                    Youngsters can bring massive changes in the world. We too
+                    understand this. This is the reason behind the formation of
+                    Gita Life.
                 </Typography>
+
+                <Goals />
 
                 {/* About Srila Prabhupada */}
                 <div
