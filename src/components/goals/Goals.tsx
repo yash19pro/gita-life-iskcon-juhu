@@ -1,6 +1,26 @@
 import { Typography } from "@mui/material";
 
 const Goals = () => {
+    const goals = [];
+
+    goals.push("Gaining happiness and self-fulfillment in the life");
+    goals.push("Combining personality with proficiency for long-term success");
+    goals.push(
+        "Securing youngsters from self-destructive addictions that harm mind and body"
+    );
+    goals.push(
+        "Provide soft-skill training like leadership, stress management, time management etc."
+    );
+    goals.push(
+        "Provide a sense of balancing between personal and professional life, work and entertainment"
+    );
+    goals.push(
+        "Provide scientifically crafted lectures on Vedic intelligence by the highly qualified faculty members"
+    );
+    goals.push(
+        "Finding the internal potential such as motivation, concentration, tolerance, self-confidence, and kindness"
+    );
+
     return (
         <div
             style={{
@@ -20,64 +40,20 @@ const Goals = () => {
                 }}
             >
                 <Typography variant="h2" component="h2">
-                    Our Goals is to...
+                    Goals
                 </Typography>
             </div>
             <div style={{ textAlign: "center" }}>
-                <Typography
-                    variant="subtitle2"
-                    component="h6"
-                    style={{ padding: "10px" }}
-                >
-                    Gaining happiness and self-fulfillment in the life
-                </Typography>
-                <Typography
-                    variant="subtitle2"
-                    component="h6"
-                    style={{ padding: "10px" }}
-                >
-                    Combining personality with proficiency for long-term success
-                </Typography>
-                <Typography
-                    variant="subtitle2"
-                    component="h6"
-                    style={{ padding: "10px" }}
-                >
-                    Securing youngsters from self-destructive addictions that
-                    harm mind and body
-                </Typography>
-                <Typography
-                    variant="subtitle2"
-                    component="h6"
-                    style={{ padding: "10px" }}
-                >
-                    Provide soft-skill training like leadership, stress
-                    management, time management etc.
-                </Typography>
-                <Typography
-                    variant="subtitle2"
-                    component="h6"
-                    style={{ padding: "10px" }}
-                >
-                    Provide a sense of balancing between personal and
-                    professional life, work and entertainment
-                </Typography>
-                <Typography
-                    variant="subtitle2"
-                    component="h6"
-                    style={{ padding: "10px" }}
-                >
-                    Provide scientifically crafted lectures on Vedic
-                    intelligence by the highly qualified faculty members
-                </Typography>
-                <Typography
-                    variant="subtitle2"
-                    component="h6"
-                    style={{ padding: "10px" }}
-                >
-                    Finding the internal potential such as motivation,
-                    concentration, tolerance, self-confidence, and kindness
-                </Typography>
+                {goals.map((goal, id) => (
+                    <Typography
+                        key={id}
+                        variant="subtitle2"
+                        component="h6"
+                        style={{ padding: "10px" }}
+                    >
+                        {goal}
+                    </Typography>
+                ))}
             </div>
         </div>
     );
