@@ -6,53 +6,28 @@ import Image from "next/image";
 
 const images = [
     {
-        src: "/carousel-images/lord-vishnu-and-durga-devi-navaratri.jpg",
-        alt: "Lord Vishnu and Durga Devi",
+        src: "/carousel-images/sharad-purnima.jpeg",
+        alt: "Sharad Purnima",
     },
     {
-        src: "/carousel-images/harinaam-week-1.jpeg",
-        alt: "Harinaam",
-    },
-    {
-        src: "/carousel-images/harinaam-week-2.jpeg",
-        alt: "Harinaam",
-    },
-    {
-        src: "/carousel-images/harinaam-week-3.jpeg",
-        alt: "Harinaam",
-    },
-    {
-        src: "/carousel-images/talasari-3.jpeg",
-        alt: "Talasari Camp",
-    },
-    {
-        src: "/carousel-images/talasari-4.jpeg",
-        alt: "Talasari Camp",
+        src: "/carousel-images/kartik-maas.jpeg",
+        alt: "Kartik Maas",
     },
     {
         src: "/carousel-images/radhaashtami-1.jpeg",
-        alt: "Radha Ashtami",
+        alt: "Radha Ashtami Celebration",
     },
     {
-        src: "/carousel-images/radhaashtami-2.jpeg",
-        alt: "Radha Ashtami",
-    },
-
-    {
-        src: "/carousel-images/radhaashtami-3.jpeg",
-        alt: "Radha Ashtami",
+        src: "/carousel-images/harinaam-week-1.jpeg",
+        alt: "Harinaam Week",
     },
     {
-        src: "/carousel-images/radhaashtami-4.jpeg",
-        alt: "Radha Ashtami",
+        src: "/carousel-images/harinaam-week-2.jpeg",
+        alt: "Harinaam Week",
     },
     {
-        src: "/carousel-images/radhaashtami-6.jpeg",
-        alt: "Radha Ashtami",
-    },
-    {
-        src: "/carousel-images/radhaashtami-7.jpeg",
-        alt: "Radha Ashtami",
+        src: "/carousel-images/harinaam-week-3.jpeg",
+        alt: "Harinaam Week",
     },
 ];
 
