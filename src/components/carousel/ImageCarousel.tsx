@@ -18,16 +18,48 @@ const images = [
         alt: "Radha Ashtami Celebration",
     },
     {
-        src: "/carousel-images/harinaam-week-1.jpeg",
-        alt: "Harinaam Week",
+        src: "/carousel-images/sharad-purnima-1.jpeg",
+        alt: "Sharad Purnima",
     },
     {
-        src: "/carousel-images/harinaam-week-2.jpeg",
-        alt: "Harinaam Week",
+        src: "/carousel-images/sharad-purnima-2.jpeg",
+        alt: "Sharad Purnima",
     },
     {
-        src: "/carousel-images/harinaam-week-3.jpeg",
-        alt: "Harinaam Week",
+        src: "/carousel-images/sharad-purnima-3.jpeg",
+        alt: "Sharad Purnima",
+    },
+    {
+        src: "/carousel-images/sharad-purnima-4.jpeg",
+        alt: "Sharad Purnima",
+    },
+    {
+        src: "/carousel-images/sharad-purnima-5.jpeg",
+        alt: "Sharad Purnima",
+    },
+    {
+        src: "/carousel-images/gev-1.jpeg",
+        alt: "GEV camp",
+    },
+    {
+        src: "/carousel-images/gev-2.jpeg",
+        alt: "GEV camp",
+    },
+    {
+        src: "/carousel-images/gev-3.jpeg",
+        alt: "GEV camp",
+    },
+    {
+        src: "/carousel-images/gev-4.jpeg",
+        alt: "GEV camp",
+    },
+    {
+        src: "/carousel-images/gev-5.jpeg",
+        alt: "GEV camp",
+    },
+    {
+        src: "/carousel-images/gev-6.jpeg",
+        alt: "GEV camp",
     },
 ];
 
