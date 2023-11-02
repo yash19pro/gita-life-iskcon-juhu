@@ -6,16 +6,8 @@ import Image from "next/image";
 
 const images = [
     {
-        src: "/carousel-images/sharad-purnima.jpeg",
-        alt: "Sharad Purnima",
-    },
-    {
         src: "/carousel-images/kartik-maas.jpeg",
         alt: "Kartik Maas",
-    },
-    {
-        src: "/carousel-images/radhaashtami-1.jpeg",
-        alt: "Radha Ashtami Celebration",
     },
     {
         src: "/carousel-images/sharad-purnima-1.jpeg",
@@ -60,6 +52,46 @@ const images = [
     {
         src: "/carousel-images/gev-6.jpeg",
         alt: "GEV camp",
+    },
+    {
+        src: "/carousel-images/talasari-1.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-2.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-3.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-4.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-5.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-6.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-7.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-8.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-9.jpeg",
+        alt: "Talasari camp",
+    },
+    {
+        src: "/carousel-images/talasari-10.jpeg",
+        alt: "Talasari camp",
     },
 ];
 
