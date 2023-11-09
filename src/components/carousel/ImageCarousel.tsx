@@ -46,11 +46,7 @@ const ImageCarousel = () => {
                                 scrolling="no"
                                 frameBorder="0"
                                 allowFullScreen
-                                style={{
-                                    marginBottom: "0",
-                                    border: "none",
-                                    display: "block",
-                                }}
+                                style={{ paddingTop: "40px" }}
                             />
                         </div>
                     ))}
