@@ -34,24 +34,24 @@ const ImageCarousel = () => {
                     ))}
                 </Carousel>
             </Paper>
-            <Paper elevation={24} className="carousel-container-video">
-                <Carousel showThumbs={false}>
-                    {videos.map((video, index) => (
-                        <div key={index}>
-                            <iframe
-                                width="600"
-                                height="500"
-                                src={video.url}
-                                title={video.title}
-                                scrolling="no"
-                                frameBorder="0"
-                                allowFullScreen
-                                style={{ paddingTop: "40px" }}
-                            />
-                        </div>
-                    ))}
-                </Carousel>
-            </Paper>
+            <Carousel showThumbs={false}>
+                {videos.map((video, index) => (
+                    <div key={index}>
+                        <iframe
+                            width="600"
+                            height="500"
+                            src={video.url}
+                            title={video.title}
+                            scrolling="no"
+                            frameBorder="0"
+                            allowFullScreen
+                            style={{
+                                paddingTop: "40px",
+                            }}
+                        />
+                    </div>
+                ))}
+            </Carousel>
         </div>
     );
 };
