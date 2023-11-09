@@ -39,13 +39,18 @@ const ImageCarousel = () => {
                     {videos.map((video, index) => (
                         <div key={index}>
                             <iframe
-                                width="700"
-                                height="460"
+                                width="600"
+                                height="500"
                                 src={video.url}
                                 title={video.title}
-                                // frameBorder="0"
+                                scrolling="no"
+                                frameBorder="0"
                                 allowFullScreen
-                                style={{ paddingTop: "40px" }}
+                                style={{
+                                    marginBottom: "0",
+                                    border: "none",
+                                    display: "block",
+                                }}
                             />
                         </div>
                     ))}
