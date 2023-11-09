@@ -1,10 +1,10 @@
 const videos = [
     {
-        url: "https://drive.google.com/file/d/1SMHKRl7SL4_wPc9vytl6YcHUjogDh3XP/preview?usp=drivesdk",
+        url: "https://www.youtube.com/embed/5W5_FwoGqyc?si=f6YXW-b70wDLaAWt",
         title: "Talasari Retreat",
     },
     {
-        url: "https://drive.google.com/file/d/1_V2g3z6hoZbfN88xMHZH_twHC9v-EVWA/preview?usp=drivesdk",
+        url: "https://www.youtube.com/embed/aoqomJsOehQ?si=u-o1MXNm3JlFgI6L",
         title: "Talasari Retreat",
     },
 ];
