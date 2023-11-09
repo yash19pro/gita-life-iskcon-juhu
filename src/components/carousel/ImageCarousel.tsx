@@ -3,102 +3,15 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Paper } from "@mui/material";
 import Image from "next/image";
-
-const images = [
-    {
-        src: "/carousel-images/kartik-maas.jpeg",
-        alt: "Kartik Maas",
-    },
-    {
-        src: "/carousel-images/sharad-purnima-1.jpeg",
-        alt: "Sharad Purnima",
-    },
-    {
-        src: "/carousel-images/sharad-purnima-2.jpeg",
-        alt: "Sharad Purnima",
-    },
-    {
-        src: "/carousel-images/sharad-purnima-3.jpeg",
-        alt: "Sharad Purnima",
-    },
-    {
-        src: "/carousel-images/sharad-purnima-4.jpeg",
-        alt: "Sharad Purnima",
-    },
-    {
-        src: "/carousel-images/sharad-purnima-5.jpeg",
-        alt: "Sharad Purnima",
-    },
-    {
-        src: "/carousel-images/gev-1.jpeg",
-        alt: "GEV camp",
-    },
-    {
-        src: "/carousel-images/gev-2.jpeg",
-        alt: "GEV camp",
-    },
-    {
-        src: "/carousel-images/gev-3.jpeg",
-        alt: "GEV camp",
-    },
-    {
-        src: "/carousel-images/gev-4.jpeg",
-        alt: "GEV camp",
-    },
-    {
-        src: "/carousel-images/gev-5.jpeg",
-        alt: "GEV camp",
-    },
-    {
-        src: "/carousel-images/gev-6.jpeg",
-        alt: "GEV camp",
-    },
-    {
-        src: "/carousel-images/talasari-1.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-2.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-3.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-4.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-5.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-6.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-7.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-8.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-9.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-10.jpeg",
-        alt: "Talasari camp",
-    },
-];
+import images from "../data/images";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+import videos from "../data/videos";
 
 const ImageCarousel = () => {
     return (
-        <Paper elevation={24} className="card carousel-container">
+        <Paper elevation={24} className="card carousel-container-image">
             <Carousel
+                className="image-carousel"
                 showArrows={true}
                 showThumbs={false}
                 infiniteLoop={true}
@@ -124,3 +37,26 @@ const ImageCarousel = () => {
 };
 
 export default ImageCarousel;
+
+{
+    /* <Paper
+    elevation={24}
+    className="card carousel-container-video"
+    style={{ margin: "20px" }}
+>
+    <Carousel showThumbs={false}>
+        {videos.map((video, index) => (
+            <div key={index}>
+                <iframe
+                    width="700"
+                    height="460"
+                    src={video.url}
+                    title={video.title}
+                    frameBorder="0"
+                    allowFullScreen
+                />
+            </div>
+        ))}
+    </Carousel>
+</Paper> */
+}
