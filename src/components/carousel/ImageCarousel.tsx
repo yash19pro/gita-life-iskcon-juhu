@@ -9,30 +9,49 @@ import videos from "../data/videos";
 
 const ImageCarousel = () => {
     return (
-        <Paper elevation={24} className="card carousel-container-image">
-            <Carousel
-                className="image-carousel"
-                showArrows={true}
-                showThumbs={false}
-                infiniteLoop={true}
-                autoPlay={true}
-                interval={5000} // Auto-advance every 5 seconds
-                transitionTime={500} // Animation duration
-            >
-                {images.map((image, index) => (
-                    <div key={index}>
-                        <Paper elevation={3} className="carousel-image">
-                            <Image
-                                src={image.src}
-                                alt={image.alt}
-                                width={500}
-                                height={500}
+        <div className="carousels">
+            <Paper elevation={24} className="card carousel-container-image">
+                <Carousel
+                    className="image-carousel"
+                    showArrows={true}
+                    showThumbs={false}
+                    infiniteLoop={true}
+                    autoPlay={true}
+                    interval={5000} // Auto-advance every 5 seconds
+                    transitionTime={500} // Animation duration
+                >
+                    {images.map((image, index) => (
+                        <div key={index}>
+                            <Paper elevation={3} className="carousel-image">
+                                <Image
+                                    src={image.src}
+                                    alt={image.alt}
+                                    width={500}
+                                    height={500}
+                                />
+                            </Paper>
+                        </div>
+                    ))}
+                </Carousel>
+            </Paper>
+            <Paper elevation={24} className="carousel-container-video">
+                <Carousel showThumbs={false}>
+                    {videos.map((video, index) => (
+                        <div key={index}>
+                            <iframe
+                                width="700"
+                                height="460"
+                                src={video.url}
+                                title={video.title}
+                                // frameBorder="0"
+                                allowFullScreen
+                                style={{ paddingTop: "40px" }}
                             />
-                        </Paper>
-                    </div>
-                ))}
-            </Carousel>
-        </Paper>
+                        </div>
+                    ))}
+                </Carousel>
+            </Paper>
+        </div>
     );
 };
 
