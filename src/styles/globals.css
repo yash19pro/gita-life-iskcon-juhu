@@ -229,8 +229,8 @@ a {
     }
 
     .carousel-container-image {
-        max-width: 100%;
-        width: 100%;
+        max-width: 400px;
+        width: 400px;
         margin: 15px auto;
     }
 
