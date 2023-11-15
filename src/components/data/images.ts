@@ -1,12 +1,9 @@
 const images = [
     {
-        src: "/carousel-images/gita-life.jpeg",
-        alt: "Gita Life Program",
+        src: "/carousel-images/prabhupada-disappearance.jpeg",
+        alt: "Prabhupada Disappearance Day",
     },
-    {
-        src: "/carousel-images/govardhan-pooja.jpeg",
-        alt: "Govardhan Pooja",
-    },
+
     {
         src: "/carousel-images/kartik-maas.jpeg",
         alt: "Kartik Maas",
