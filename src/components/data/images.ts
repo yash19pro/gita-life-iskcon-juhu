@@ -8,6 +8,34 @@ const images = [
         alt: "Temple Visit",
     },
     {
+        src: "/carousel-images/sp-disappearnace-1.jpeg",
+        alt: "Srila Prabhupada Disappearance Day",
+    },
+    {
+        src: "/carousel-images/sp-disappearnace-2.jpeg",
+        alt: "Srila Prabhupada Disappearance Day",
+    },
+    {
+        src: "/carousel-images/sp-disappearnace-3.jpeg",
+        alt: "Srila Prabhupada Disappearance Day",
+    },
+    {
+        src: "/carousel-images/sp-disappearnace-4.jpeg",
+        alt: "Srila Prabhupada Disappearance Day",
+    },
+    {
+        src: "/carousel-images/sp-disappearnace-5.jpeg",
+        alt: "Srila Prabhupada Disappearance Day",
+    },
+    {
+        src: "/carousel-images/sp-disappearnace-6.jpeg",
+        alt: "Srila Prabhupada Disappearance Day",
+    },
+    {
+        src: "/carousel-images/sp-disappearnace-7.jpeg",
+        alt: "Srila Prabhupada Disappearance Day",
+    },
+    {
         src: "/carousel-images/kartik-maas.jpeg",
         alt: "Kartik Maas",
     },
@@ -42,26 +70,6 @@ const images = [
     {
         src: "/carousel-images/giriraj-8.jpeg",
         alt: "Giriraj Ji",
-    },
-    {
-        src: "/carousel-images/gev-1.jpeg",
-        alt: "GEV camp",
-    },
-    {
-        src: "/carousel-images/gev-2.jpeg",
-        alt: "GEV camp",
-    },
-    {
-        src: "/carousel-images/talasari-5.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-2.jpeg",
-        alt: "Talasari camp",
-    },
-    {
-        src: "/carousel-images/talasari-6.jpeg",
-        alt: "Talasari camp",
     },
 ];
 
