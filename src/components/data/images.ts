@@ -36,10 +36,6 @@ const images = [
         alt: "Srila Prabhupada Disappearance Day",
     },
     {
-        src: "/carousel-images/kartik-maas.jpeg",
-        alt: "Kartik Maas",
-    },
-    {
         src: "/carousel-images/giriraj-1.jpeg",
         alt: "Giriraj Ji",
     },
