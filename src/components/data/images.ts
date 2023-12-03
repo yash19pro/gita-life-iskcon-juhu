@@ -4,6 +4,10 @@ const images = [
         alt: "Gita Life Event",
     },
     {
+        src: "/carousel-images/gita-life2.jpeg",
+        alt: "Gita Life Event",
+    },
+    {
         src: "/carousel-images/temple-visit.jpeg",
         alt: "Temple Visit",
     },
