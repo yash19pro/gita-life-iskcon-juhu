@@ -1,5 +1,9 @@
 const images = [
     {
+        src: "/carousel-images/ekadashi.jpeg",
+        alt: "Ekadashi",
+    },
+    {
         src: "/carousel-images/gita-life.jpeg",
         alt: "Gita Life Event",
     },
