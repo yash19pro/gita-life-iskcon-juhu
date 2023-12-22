@@ -4,6 +4,10 @@ const images = [
         alt: "Ekadashi",
     },
     {
+        src: "/carousel-images/ekadashi-2.jpeg",
+        alt: "Ekadashi",
+    },
+    {
         src: "/carousel-images/gita-life.jpeg",
         alt: "Gita Life Event",
     },
