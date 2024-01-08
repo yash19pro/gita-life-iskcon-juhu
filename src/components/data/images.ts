@@ -8,10 +8,6 @@ const images = [
     //     alt: "Ekadashi",
     // },
     {
-        src: "/carousel-images/gita-life.jpeg",
-        alt: "Gita Life Event",
-    },
-    {
         src: "/carousel-images/temple-visit.jpeg",
         alt: "Temple Visit",
     },
