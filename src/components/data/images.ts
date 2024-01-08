@@ -1,12 +1,12 @@
 const images = [
     {
-        src: "/carousel-images/ekadashi.jpeg",
-        alt: "Ekadashi",
+        src: "/carousel-images/makar-sankranti.jpeg",
+        alt: "makar-sankranti",
     },
-    {
-        src: "/carousel-images/ekadashi-2.jpeg",
-        alt: "Ekadashi",
-    },
+    // {
+    //     src: "/carousel-images/ekadashi-2.jpeg",
+    //     alt: "Ekadashi",
+    // },
     {
         src: "/carousel-images/gita-life.jpeg",
         alt: "Gita Life Event",
